@@ -7,4 +7,4 @@ from devpro.base.models import Curso
 
 @admin.register(Curso)
 class CursosAdmin(admin.ModelAdmin):
-    list_display = 'id name created_at updated_at'.split()
+    list_display = 'id name created_at updated_at a'.split()

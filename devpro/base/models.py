@@ -5,8 +5,9 @@ class Curso(models.Model):
     name = models.CharField(max_length=255)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    a = models.CharField(max_length=255, null=True, default='', blank='')
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'cursos'
 
