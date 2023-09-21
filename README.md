@@ -27,3 +27,18 @@ INSERT INTO cursos (name, created_at) VALUES ('Django', '2023-09-20 12:00:00');
 INSERT INTO cursos (name, created_at) VALUES ('SQL', '2023-09-20 12:10:00' );
 ```
 
+## Passo 2 criação de projeto django
+
+Crie e ative um ambiente virtual:
+
+```bash
+ python -m venv .venv
+ source .venv/bin/activate
+```
+
+Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
